@@ -87,6 +87,7 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    color: white;
 }
 
 /* Main content */
@@ -102,7 +103,7 @@ main {
 }
 /* Form */
 #signup {
-    background-image: url("../images/signup-image.webp");
+    background-image: url("../images/signup.webp");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -112,7 +113,7 @@ main {
 
 #signup-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.6);
+    background-color: rgba(60, 60, 60, 0.8);
     padding: 30px;
 }
 
@@ -135,7 +136,7 @@ main {
 }
 .join-button {
     margin-top: 20px;
-    border-radius: 2px;
+    border-radius: 12px;
     padding: 15px 32px;
     font-size: 100%;
     background-color: #ea2424;
