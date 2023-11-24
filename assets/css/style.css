@@ -110,13 +110,11 @@ main {
     flex-grow: 1;
 }
 
-
 #signup-form {
     color: #ffffff;
     background-color: rgba(60, 60, 60, 0.8);
     padding: 30px;
 }
-
 
 #signup-form>h2 {
     color: #fafafa;
@@ -144,29 +142,43 @@ main {
 }
 /*Thank You**/
 
-#thanks{
-    background: 
-}
+#submit {
+        background-image: url("../images/signup.webp");
+        background-size: cover;
+        background-position: 75%;
+        padding: 20px 10% 0 10%;
+        flex-grow: 1;
+        height: 60vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+
 .container {
-    background-color: rgba(11, 11, 11, 0.7);
-    display: grid;
-    place-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 40px;
+    max-width: 300px;
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.8);
+    margin:auto;
+    height:60vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-#sub {
-   margin: 0 auto;
+.thanks {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
 }
 
-#sub > p {
-    color: white;
-}
-#video {
-      width: 40%
-      height: 40%
-       padding-top: 80px;
+.video {
+    width:80%;
+    height: 40%;
 }
 /* Footer */
 #social-networks {
@@ -235,6 +247,7 @@ main {
         position: absolute;
         left: 10%;
         top: 150px;
+        padding-bottom: 30px;
     }
 
     .text-input:hover {
@@ -245,9 +258,48 @@ main {
         background-color: #fafafa;
         color: #454b1b;
     }
+
+    #submit {
+        background-image: url("../images/signup.webp");
+        background-size: cover;
+        background-position: 75%;
+        padding: 20px 10% 0 10%;
+        flex-grow: 1;
+        height: 90vh;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+
+.container {
+    max-width: 800px;
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.8);
+    margin:auto;
+    height:60vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.thanks {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+.video {
+    width:400px;
+    height: 225px;
+}
     #social-networks {
         
     }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
