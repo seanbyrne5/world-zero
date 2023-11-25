@@ -24,21 +24,18 @@ h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: hwb(0 93% 2%);
+    color: white;
 }
 
-.hidden-heading {
-    display: none;
-}
 
 /* Header */
 header {
-    background-color: hsl(0, 100%, 1%);
+    background-color: #070303;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px hsl(0, 22%, 96%);
+    box-shadow: 0 2px 2px #fbfafa;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -46,14 +43,13 @@ header {
 
 header a {
     text-decoration: none;
-    color: white;
+    color: inherit;
 }
 
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-    
 }
 
 #menu>li {
@@ -61,17 +57,17 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid hsl(0, 37%, 96%);
+    border-bottom: 1px solid #fdf8f8;
 }
 
-/* Navbar styles with dropdown toggle */
+/* Nav*/
 nav {
     position: absolute;
-    background-color: hsl(0, 100%, 1%);
+    background-color: black;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px hsl(0, 21%, 95%);
+    box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
 }
@@ -92,15 +88,12 @@ nav {
 
 /* Main content */
 main {
-    /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
-    /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
-    background-color:lightgrey;
 }
+
 /* Form */
 #signup {
     background-image: url("../images/signup.webp");
@@ -110,11 +103,13 @@ main {
     flex-grow: 1;
 }
 
+
 #signup-form {
     color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.8);
+    background-color: rgba(60, 60, 60, 0.7);
     padding: 30px;
 }
+
 
 #signup-form>h2 {
     color: #fafafa;
@@ -132,54 +127,50 @@ main {
     border-radius: 2px;
     padding: 0 5px;
 }
+
 .join-button {
     margin-top: 20px;
     border-radius: 12px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #ea2424;
+    background-color: #bb1818;
     color: #fafafa;
 }
-/*Thank You**/
 
+/*Thank You */
 #submit {
-        background-image: url("../images/signup.webp");
-        background-size: cover;
-        background-position: 75%;
-        padding: 20px 10% 0 10%;
-        flex-grow: 1;
-        height: 60vh;
-        display:flex;
-        align-items: center;
-        justify-content: center;
-
-.container {
-    max-width: 300px;
-    color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.8);
-    margin:auto;
-    height:60vh;
+    background-image: url("../images/signup.webp");
+    background-size: cover;
+    background-position: 75%;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+    height: 90vh;
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.8);
+    margin: auto;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     flex-direction: column;
     justify-content: space-evenly;
+    border-radius: 12px;
 }
 
 .thanks {
     text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-
+    padding-left 5px;
+    padding-right: 5px;
 }
 
-.video {
-    width:80%;
-    height: 40%;
-}
 /* Footer */
 #social-networks {
     text-align: center;
@@ -196,9 +187,7 @@ main {
 }
 
 /* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
-    
-}
+@media screen and (min-width: 576px) {}
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
@@ -214,27 +203,31 @@ main {
 
     #menu {
         display: flex;
+        color: white;
     }
 
     #menu>li {
         padding-left: 1rem;
+
     }
 
     .nav-toggle-label {
         display: none;
     }
 
+
     #logo {
         font-size: 280%;
         line-height: 75px;
         margin: 0 0.5rem;
+        color: white;
     }
 
     /* Main content */
     main {
-        /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
+
 
     /* Form */
     #signup {
@@ -247,7 +240,6 @@ main {
         position: absolute;
         left: 10%;
         top: 150px;
-        padding-bottom: 30px;
     }
 
     .text-input:hover {
@@ -259,55 +251,36 @@ main {
         color: #454b1b;
     }
 
-    #submit {
-        background-image: url("../images/signup.webp");
-        background-size: cover;
-        background-position: 75%;
-        padding: 20px 10% 0 10%;
-        flex-grow: 1;
-        height: 90vh;
-        display:flex;
+    .container {
+        max-width: 1000px;
+        padding-top: 20px;
+        padding-bottom: 20px: padding-left: 20px;
+        padding-right: 20px;
+        color: #ffffff;
+        background-color: rgba(60, 60, 60, 0.8);
+        margin: auto;
+        height: 60vh;
+        display: flex;
         align-items: center;
         justify-content: center;
+        position: absolute;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-radius: 12px;
 
-.container {
-    max-width: 800px;
-    color: #ffffff;
-    background-color: rgba(60, 60, 60, 0.8);
-    margin:auto;
-    height:60vh;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    position: absolute;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.thanks {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-
-}
-
-.video {
-    width:400px;
-    height: 225px;
-}
-    #social-networks {
-        
+        .video {}
     }
 
-}
+    /* Large devices (laptops and desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #3a3a3a;
+        }
 
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+
     }
 
-@media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1200px) {
 
-}
+        /
+    }
