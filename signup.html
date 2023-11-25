@@ -22,7 +22,7 @@
 <body>
     <!-- Header -->
     <header>
-        <a href="index.html">
+        <a href="index.html" aria-label="Opens the Home page">
             <h1 id="logo">World/Zero</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
@@ -31,9 +31,9 @@
         </label>
         <nav>
             <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="suggestions.html">Must Watch</a></li>
-                <li><a href="signup.html" class="active">Sign Up</a></li>
+                <li><a href="index.html" aria-label="Opens the Home page">Home</a></li>
+                <li><a href="suggestions.html" aria-label="Opens the Must Watxh page">Must Watch</a></li>
+                <li><a href="signup.html" class="active" aria-label=" Opens the Sign Up page">Sign Up</a></li>
             </ul>
         </nav>
     </header>
@@ -44,15 +44,15 @@
             <form id="signup-form" method="GET" action="thankyou.html">
                 <h2><i class="fa-solid fa-fire"></i>Let's Go!</h2>
                 <label for="first_name">Username</label>
-                <input type="text" name="first_name" id="first_name" class="text-input" required>
+                <input type="text" name="first_name" id="first_name" class="text-input" aria-label="Please enter your desired username" required>
                 <br>
                 <label for="last_name">IRL Name</label>
-                <input type="text" name="last_name" id="last_name" class="text-input" required>
+                <input type="text" name="last_name" id="last_name" class="text-input" aria-label="Please enter your first and last name" required>
                 <br>
                 <label for="email_address">Email Address</label>
-                <input type="email" name="email_address" id="email_address" class="text-input" required>
+                <input type="email" name="email_address" id="email_address" class="text-input" aria-label="Please enter your email address" required>
                 <br> 
-                <button type="submit" class="join-button">Let's Go!</button>
+                <button type="submit" class="join-button"aria-label="Submit your information and be directed to the next page">Let's Go!</button>
             </form>
         </section>
     </main>
