@@ -43,7 +43,7 @@ header {
 
 header a {
     text-decoration: none;
-    color: inherit;
+    color: white;
 }
 
 #menu {
@@ -74,6 +74,7 @@ nav {
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
+    color:white;
     display: block;
 }
 
@@ -124,9 +125,26 @@ main {
  font-family: 'Oswald', sans-serif;
  color: black;
  letter-spacing: 2px;
-
 }
 
+.info {
+    font-weight: bold;
+}
+
+.current>h3 {
+    font-family: 'Oswald', sans-serif;
+        color: black;
+        letter-spacing: 2px;
+    }
+    
+}
+
+
+/*Suggestions*/
+#suggestions {
+    background-color: darkgrey;
+    background-size: cover;
+}
 
 /* Form */
 #signup {
@@ -202,7 +220,7 @@ main {
 
 .thanks {
     text-align: center;
-    padding-left 5px;
+    padding-left: 5px;
     padding-right: 5px;
 }
 
@@ -248,6 +266,7 @@ main {
 
     .nav-toggle-label {
         display: none;
+        color: white;
     }
 
 
@@ -262,11 +281,12 @@ main {
     main {
         margin-top: 79px;
     }
-
+   /*Home Page*/
     #intro-text {
         width: 300px;
         right: 50px;
     }
+
 
 
     /* Form */
@@ -279,7 +299,7 @@ main {
         max-width: 400px;
         position: absolute;
         left: 10%;
-        top: 150px;
+        top: 100px;
     }
 
     .text-input:hover {
@@ -298,8 +318,8 @@ main {
         padding-right: 20px;
         color: #ffffff;
         background-color: rgba(60, 60, 60, 0.8);
-        margin: auto;
-        height: 60vh;
+        margin:auto;
+        height:60vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -308,7 +328,9 @@ main {
         justify-content: space-evenly;
         border-radius: 12px;
 
-        .video {}
+        .video {
+
+        }
     }
 
     /* Large devices (laptops and desktops, 992px and up) */
@@ -316,11 +338,14 @@ main {
         #menu a:hover {
             border-bottom: 1px solid #3a3a3a;
         }
-
-
+        .info {
+            text-size-adjust: 150%;
+         }
     }
 
     @media screen and (min-width: 1200px) {
 
-        /
+        .info {
+                text-size-adjust: 200%;
+            }
     }
