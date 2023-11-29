@@ -18,6 +18,14 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+.line-break {
+    padding-bottom: 14px;
+}
+
+.d-flex {
+    display: flex;
+}
+
 h1,
 h2,
 h3 {
@@ -131,13 +139,24 @@ main {
     font-weight: bold;
 }
 
-.current>h3 {
+#letter{
     font-family: 'Oswald', sans-serif;
         color: black;
         letter-spacing: 2px;
-    }
-    
 }
+
+.binging {
+    font-family: 'Oswald', sans-serif;
+        color: black;
+        letter-spacing: 2px;
+        text-align: center;
+}
+.current-watch {
+    display: grid;
+    place-items: center;
+}
+
+.jjk.img {
 
 
 /*Suggestions*/
@@ -148,7 +167,7 @@ main {
 
 /* Form */
 #signup {
-    background-image: url("../images/signup.webp");
+    background-image: url("../images/anime1.png");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -192,7 +211,7 @@ main {
 
 /*Thank You */
 #submit {
-    background-image: url("../images/signup.webp");
+    background-image: url("../images/animw=e1.png");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -328,9 +347,7 @@ main {
         justify-content: space-evenly;
         border-radius: 12px;
 
-        .video {
-
-        }
+    
     }
 
     /* Large devices (laptops and desktops, 992px and up) */
@@ -338,14 +355,14 @@ main {
         #menu a:hover {
             border-bottom: 1px solid #3a3a3a;
         }
-        .info {
-            text-size-adjust: 150%;
+        #about-me,.info,p {
+            font-size: 24px;
          }
     }
 
     @media screen and (min-width: 1200px) {
 
-        .info {
-                text-size-adjust: 200%;
+        #about-me,.info, p{
+                font-size: 34px;
             }
     }
