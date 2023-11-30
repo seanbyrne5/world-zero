@@ -106,7 +106,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/anime2.png") no-repeat center center/cover;
+    background: url("../images/hero-img-s.png") no-repeat center center/cover;
     position: relative;
 }
 
@@ -151,28 +151,32 @@ main {
         letter-spacing: 2px;
         text-align: center;
 }
-.current-watch {
-    display: grid;
-    place-items: center;
-}
 
-.jjk.img {
+.current-watch {
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+}
+ .title {
+    font-size: 20px;
+ }
+
+ .jjk-blurb {
+    text-align: center;
+ }
 
 
 /*Suggestions*/
-#suggestions {
-    background-color: darkgrey;
-    background-size: cover;
-}
+
 
 /* Form */
 #signup {
-    background-image: url("../images/anime1.png");
-    background-size: cover;
-    background-position: 75%;
-    padding: 20px 10% 0 10%;
-    flex-grow: 1;
-}
+        background-image: url("../images/signup-img-s.png");
+        background-size: cover;
+        background-position: 75%;
+        padding: 20px 10% 0 10%;
+        flex-grow: 1;
+    }
 
 
 #signup-form {
@@ -211,7 +215,7 @@ main {
 
 /*Thank You */
 #submit {
-    background-image: url("../images/animw=e1.png");
+    background-image: url("../images/signup-img-s.png");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -241,6 +245,11 @@ main {
     text-align: center;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.video {
+    display:flex;
+
 }
 
 /* Footer */
@@ -301,15 +310,34 @@ main {
         margin-top: 79px;
     }
    /*Home Page*/
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url("../images/hero-image.png") no-repeat center center/cover;
+    position: relative;
+}
     #intro-text {
         width: 300px;
         right: 50px;
     }
 
+        .current-watch {
+            align-items: center;
+            justify-content: center;
+            column-count: 2;
+        }
+
+        
 
 
     /* Form */
-    #signup {
+        #signup {
+            background-image: url("../images/signup.png");
+            background-size: cover;
+            background-position: 75%;
+            padding: 20px 10% 0 10%;
+            flex-grow: 1;
         background-position: center;
         position: relative;
     }
@@ -346,7 +374,12 @@ main {
         flex-direction: column;
         justify-content: space-evenly;
         border-radius: 12px;
+    }
 
+    .video{
+        width: 400px;
+        height: 250px;
+    }
     
     }
 
@@ -355,14 +388,14 @@ main {
         #menu a:hover {
             border-bottom: 1px solid #3a3a3a;
         }
-        #about-me,.info,p {
+        #about-me,.info,p, .title, h4{
             font-size: 24px;
          }
     }
 
     @media screen and (min-width: 1200px) {
 
-        #about-me,.info, p{
+        #about-me,.info, p, .title, h4{
                 font-size: 34px;
             }
     }
