@@ -127,6 +127,9 @@ main {
     width: 90%;
     margin: 20px auto;
     text-align: center;
+    background-color: rgba(29, 12, 66, 0.2);
+    border-radius: 12px;
+
 }
 
 #about-me>h2 {
@@ -152,17 +155,27 @@ main {
         text-align: center;
 }
 
+.current {
+    background-color: rgba(29, 12, 66, 0.2);
+        border-radius: 12px;
+}
+
 .current-watch {
       align-items: center;
       justify-content: center;
       flex-direction: column;
-}
  .title {
     font-size: 20px;
+    padding-top: 14px;
  }
 
  .jjk-blurb {
     text-align: center;
+    font-weight: 700;
+ }
+
+ .jjk-img {
+    box-shadow: 5px 5px 2px darkgrey;
  }
 
 
@@ -389,13 +402,13 @@ main {
             border-bottom: 1px solid #3a3a3a;
         }
         #about-me,.info,p, .title, h4{
-            font-size: 24px;
+            font-size: 28px;
          }
     }
 
     @media screen and (min-width: 1200px) {
 
         #about-me,.info, p, .title, h4{
-                font-size: 34px;
+                font-size: 38px;
             }
     }
