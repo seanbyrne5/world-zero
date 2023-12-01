@@ -198,7 +198,7 @@ main {
      transition: all 0.25s ease-out;
 
      width: 250px;
-     margin-left: 40px
+     margin: 0 auto;
  }
 
  .lbl-toggle:hover {
