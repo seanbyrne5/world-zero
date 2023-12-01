@@ -196,10 +196,13 @@ main {
 
      border-radius: 7px;
      transition: all 0.25s ease-out;
+
+     width: 250px;
+     margin-left: 40px
  }
 
  .lbl-toggle:hover {
-     color: #7C5A0B;
+     color: #fefdf9;
  }
 
  .lbl-toggle::before {
@@ -236,8 +239,8 @@ main {
  }
 
  .collapsible-content .content-inner {
-     background: rgba(250, 224, 66, .2);
-     border-bottom: 1px solid rgba(250, 224, 66, .45);
+     background: rgba(5, 5, 5, 0.2);
+     border-bottom: 1px solid rgba(247, 246, 241, 0.45);
      border-bottom-left-radius: 7px;
      border-bottom-right-radius: 7px;
      padding: .5rem 1rem;
@@ -404,7 +407,12 @@ main {
             column-count: 2;
         }
 
-        
+         .lbl-toggle{
+            max-width: 250px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+         }
 
 
     /* Form */
