@@ -151,8 +151,7 @@ main {
         text-align: center;
 }
 .current {
-    background-color: rgba(85, 15, 238, 0.2);
-        border-radius: 12px;
+    
 }
 .current-watch {
       align-items: center;
@@ -401,17 +400,10 @@ main {
         right: 50px;
     }
 
-        .current-watch {
-            align-items: center;
-            justify-content: center;
-            column-count: 2;
-        }
+       
 
          .lbl-toggle{
-            max-width: 250px;
-            display:flex;
-            align-items: center;
-            justify-content: center;
+          display: none;
          }
 
 
@@ -472,14 +464,14 @@ main {
         #menu a:hover {
             border-bottom: 1px solid #3a3a3a;
         }
-        #about-me,.info,p, .title, h4{
+        #about-me, .current {
             font-size: 28px;
          }
     }
 
     @media screen and (min-width: 1200px) {
 
-        #about-me,.info, p, .title, h4{
+        #about-me,.current {
                 font-size: 38px;
             }
     }
