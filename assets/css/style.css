@@ -25,6 +25,12 @@ body {
 .d-flex {
     display: flex;
 }
+.border {
+    background-color: rgba(85, 15, 238, 0.2);
+    border-radius: 12px;
+    padding: 5px 5px 5px 5px;
+    margin-bottom:14px;
+}
 
 h1,
 h2,
@@ -166,9 +172,7 @@ main {
     text-align: center;
     font-weight: 700;
  }
- .jjk-img {
-    box-shadow: 8px;
- }
+
  .wrap-collabsible {
      margin-bottom: 1.2rem 0;
  }
@@ -245,8 +249,13 @@ main {
      padding: .5rem 1rem;
  }
 /*Suggestions*/
-
-
+#reccomendations {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 14px;
+}
 /* Form */
 #signup {
         background-image: url("../images/signup-img-s.png");
