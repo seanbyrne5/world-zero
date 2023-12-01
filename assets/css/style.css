@@ -127,58 +127,121 @@ main {
     width: 90%;
     margin: 20px auto;
     text-align: center;
-    background-color: rgba(29, 12, 66, 0.2);
+    background-color: rgba(85, 15, 238, 0.2);
     border-radius: 12px;
 
 }
-
 #about-me>h2 {
  font-family: 'Oswald', sans-serif;
  color: black;
  letter-spacing: 2px;
 }
-
 .info {
     font-weight: bold;
 }
-
 #letter{
     font-family: 'Oswald', sans-serif;
         color: black;
         letter-spacing: 2px;
 }
-
 .binging {
     font-family: 'Oswald', sans-serif;
         color: black;
         letter-spacing: 2px;
         text-align: center;
 }
-
 .current {
-    background-color: rgba(29, 12, 66, 0.2);
+    background-color: rgba(85, 15, 238, 0.2);
         border-radius: 12px;
 }
-
 .current-watch {
       align-items: center;
       justify-content: center;
       flex-direction: column;
+}
  .title {
     font-size: 20px;
     padding-top: 14px;
  }
-
  .jjk-blurb {
     text-align: center;
     font-weight: 700;
  }
-
  .jjk-img {
-    box-shadow: 5px 5px 2px darkgrey;
+    border-radius: 50%;
+ }
+ .wrap-collabsible {
+     margin-bottom: 1.2rem 0;
  }
 
+ input[type='checkbox'] {
+     display: none;
+ }
 
+ .lbl-toggle {
+     display: block;
+
+     font-weight: bold;
+     font-family: monospace;
+     font-size: 1.2rem;
+     text-transform: uppercase;
+     text-align: center;
+
+     padding: 1rem;
+
+     color: #0b0b0a;
+     background: #bb1818;
+
+     cursor: pointer;
+
+     border-radius: 7px;
+     transition: all 0.25s ease-out;
+ }
+
+ .lbl-toggle:hover {
+     color: #7C5A0B;
+ }
+
+ .lbl-toggle::before {
+     content: ' ';
+     display: inline-block;
+
+     border-top: 5px solid transparent;
+     border-bottom: 5px solid transparent;
+     border-left: 5px solid currentColor;
+     vertical-align: middle;
+     margin-right: .7rem;
+     transform: translateY(-2px);
+
+     transition: transform .2s ease-out;
+ }
+
+ .toggle:checked+.lbl-toggle::before {
+     transform: rotate(90deg) translateX(-3px);
+ }
+
+ .collapsible-content {
+     max-height: 0px;
+     overflow: hidden;
+     transition: max-height .25s ease-in-out;
+ }
+
+ .toggle:checked+.lbl-toggle+.collapsible-content {
+     max-height: 100vh;
+ }
+
+ .toggle:checked+.lbl-toggle {
+     border-bottom-right-radius: 0;
+     border-bottom-left-radius: 0;
+ }
+
+ .collapsible-content .content-inner {
+     background: rgba(250, 224, 66, .2);
+     border-bottom: 1px solid rgba(250, 224, 66, .45);
+     border-bottom-left-radius: 7px;
+     border-bottom-right-radius: 7px;
+     padding: .5rem 1rem;
+ }
 /*Suggestions*/
 
 
