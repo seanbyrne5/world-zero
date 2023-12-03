@@ -19,7 +19,7 @@ body {
 }
 
 .line-break {
-    margin-bottom: 14px;
+    padding-bottom: 14px;
 }
 
 .d-flex {
@@ -32,13 +32,11 @@ body {
     padding: 5px 5px 5px 5px;
     margin-bottom: 14px;
 }
-<<<<<<< HEAD
+
 img {
     border-radius: 35px;
     box-shadow: 12px 12px rgb(123, 119, 119);
 }
-=======
->>>>>>> origin
 
 h1,
 h2,
@@ -170,10 +168,7 @@ main {
     text-align: center;
 }
 
-<<<<<<< HEAD
 .current {}
-=======
->>>>>>> origin
 
 .current-watch {
     align-items: center;
@@ -186,11 +181,7 @@ main {
     padding-top: 14px;
 }
 
-<<<<<<< HEAD
 .jjk-blurb {
-=======
-.blurb {
->>>>>>> origin
     text-align: center;
     font-weight: 700;
 }
@@ -278,90 +269,6 @@ input[type='checkbox'] {
     justify-content: center;
     flex-direction: column;
     margin-top: 14px;
-<<<<<<< HEAD
-=======
-}
-.image {
-    display;flex;
-    align-items: center;
-    justify-content: center;
-}
-
-wrap-collabsible {
-    margin-bottom: 1.2rem 0;
-}
-
-input[type='checkbox'] {
-    display: none;
-}
-
-.lbl-toggle {
-    display: block;
-
-    font-weight: bold;
-    font-family: monospace;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    text-align: center;
-
-    padding: 1rem;
-
-    color: #f8f8ef;
-    background: #bb1818;
-
-    cursor: pointer;
-
-    border-radius: 7px;
-    transition: all 0.25s ease-out;
-
-    width: 250px;
-    margin: 0 auto;
-}
-
-.lbl-toggle:hover {
-    color: #fefdf9;
-}
-
-.lbl-toggle::before {
-    content: ' ';
-    display: inline-block;
-
-    border-top: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    border-left: 5px solid currentColor;
-    vertical-align: middle;
-    margin-right: .7rem;
-    transform: translateY(-2px);
-
-    transition: transform .2s ease-out;
-}
-
-.toggle:checked+.lbl-toggle::before {
-    transform: rotate(90deg) translateX(-3px);
-}
-
-.collapsible-content {
-    max-height: 0px;
-    overflow: hidden;
-    transition: max-height .25s ease-in-out;
-}
-
-.toggle:checked+.lbl-toggle+.collapsible-content {
-    max-height: 100vh;
-}
-
-.toggle:checked+.lbl-toggle {
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-}
-
-.collapsible-content .content-inner {
-    background: rgba(5, 5, 5, 0.2);
-    border-bottom: 1px solid rgba(247, 246, 241, 0.45);
-    border-bottom-left-radius: 7px;
-    border-bottom-right-radius: 7px;
-    padding: .5rem 1rem;
->>>>>>> origin
 }
 
 /* Form */
@@ -590,8 +497,5 @@ input[type='checkbox'] {
     .current {
         font-size: 38px;
     }
-<<<<<<< HEAD
 }
-=======
->>>>>>> origin
 }
