@@ -32,6 +32,10 @@ body {
     padding: 5px 5px 5px 5px;
     margin-bottom: 14px;
 }
+img {
+    border-radius: 35px;
+    box-shadow: 12px 12px rgb(123, 119, 119);
+}
 
 h1,
 h2,
@@ -493,5 +497,4 @@ input[type='checkbox'] {
         font-size: 38px;
     }
 }
-            }
-    }
+}
