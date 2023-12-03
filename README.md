@@ -15,3 +15,4 @@ Credits:
 I took much inspiration from the Love Running project for some design aspects of this website such as the. Nav bar and footer as well as the sign up for design. While I made changes to this code for my own design ideas
 I used an AI image generator to create several potential pictures including the background images for this website.
 While this website is designed for anime which is already copyritten I used main images for the anime from a website I regularly use called<https://animesuge.to/>  . These images are not my property and are used as a mean to connect site visitors to the respective anime.
+I copied the collapsibleHTML and CSS from https://www.digitalocean.com/community/tutorials/css-collapsible and added it to my ste changinga couple of colors and sozes.
