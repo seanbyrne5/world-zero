@@ -19,7 +19,7 @@ body {
 }
 
 .line-break {
-    padding-bottom: 14px;
+    margin-bottom: 14px;
 }
 
 .d-flex {
@@ -419,12 +419,6 @@ input[type='checkbox'] {
     #intro-text {
         width: 300px;
         right: 50px;
-    }
-
-
-
-    .lbl-toggle {
-        display: none;
     }
 
 
