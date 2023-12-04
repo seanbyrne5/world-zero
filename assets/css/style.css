@@ -32,10 +32,6 @@ body {
     padding: 5px 5px 5px 5px;
     margin-bottom: 14px;
 }
-img {
-    border-radius: 35px;
-    box-shadow: 10px 10px 10px rgb(123, 119, 119);
-}
 
 h1,
 h2,
@@ -155,11 +151,13 @@ main {
 }
 
 #letter {
+    text-align: center;
     font-family: 'Oswald', sans-serif;
     color: black;
     letter-spacing: 2px;
     padding-left:20px;
     padding-right:20px;
+    width: 300px;
 }
 
 .binging {
@@ -208,7 +206,7 @@ input[type='checkbox'] {
     border-radius: 7px;
     transition: all 0.25s ease-out;
 
-    width: 250px;
+    width: 300px;
     margin: 0 auto;
 }
 
@@ -270,14 +268,26 @@ input[type='checkbox'] {
 
 .blurb {
     background-color: rgba(85, 15, 238, 0.2);
-    border-radius: 12px;
+    border-radius: 0 0 12px 12px;
     text-align: center;
-    font-size: 18pC
+    font-size: 18px;
     font-family: 'Oswald', sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    width: 300px;
 }
 .link {
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
+}
+
+img {
+    border-radius: 35px;
+    box-shadow: 10px 10px 10px rgb(123, 119, 119);
+    width: 300px;
+    height: 500px;
 }
 /* Form */
 #signup {
