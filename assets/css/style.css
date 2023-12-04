@@ -158,6 +158,8 @@ main {
     font-family: 'Oswald', sans-serif;
     color: black;
     letter-spacing: 2px;
+    padding-left:20px;
+    padding-right:20px;
 }
 
 .binging {
@@ -270,7 +272,7 @@ input[type='checkbox'] {
     background-color: rgba(85, 15, 238, 0.2);
     border-radius: 12px;
     text-align: center;
-    font-size: 18px;
+    font-size: 18pC
     font-family: 'Oswald', sans-serif;
 }
 .link {
@@ -323,7 +325,7 @@ input[type='checkbox'] {
 
 /*Thank You */
 #submit {
-    background-image: url("../images/signup-img-s.png");
+    background-image: url("../images/signup.png");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -431,7 +433,13 @@ input[type='checkbox'] {
         width: 300px;
         right: 50px;
     }
-
+   /*Suggestions*/
+   .small-screen {
+       display: none;
+   }
+   .current-watch {
+    display: flex;
+   }
 
     /* Form */
     #signup {
