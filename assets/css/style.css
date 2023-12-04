@@ -34,7 +34,7 @@ body {
 }
 img {
     border-radius: 35px;
-    box-shadow: 12px 12px rgb(123, 119, 119);
+    box-shadow: 10px 10px 10px rgb(123, 119, 119);
 }
 
 h1,
@@ -272,6 +272,10 @@ input[type='checkbox'] {
     text-align: center;
     font-size: 18px;
     font-family: 'Oswald', sans-serif;
+}
+.link {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
 }
 /* Form */
 #signup {
