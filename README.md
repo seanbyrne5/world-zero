@@ -1,6 +1,5 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome,
+#Welcome Assesor-sensei,
 
 This is my website detailing some of my love for anime and introducing this art form to any potential visitors to my website. On the home page I have displayed a unique image in a common anime/japanese brush style detail and a small intro welcoming visitors to this site. I detail why I built this site and make reference to common geek terminology to welcome similarly like minded people to make them comfortable. At the bottom of this page I have listed two current anime I am watching and a description of each anime for visitors understanding. I have also outlined a reason to sign up to my page and added a link that will open the sign app page for visitors to sign up for a monthly newsletter.
 
