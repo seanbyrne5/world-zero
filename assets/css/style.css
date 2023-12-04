@@ -167,8 +167,6 @@ main {
     text-align: center;
 }
 
-.current {}
-
 .current-watch {
     align-items: center;
     justify-content: center;
@@ -180,10 +178,6 @@ main {
     padding-top: 14px;
 }
 
-.jjk-blurb {
-    text-align: center;
-    font-weight: 700;
-}
 
 .wrap-collabsible {
     margin-bottom: 1.2rem 0;
@@ -276,6 +270,8 @@ input[type='checkbox'] {
     background-color: rgba(85, 15, 238, 0.2);
     border-radius: 12px;
     text-align: center;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
 }
 /* Form */
 #signup {
