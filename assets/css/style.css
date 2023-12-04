@@ -114,7 +114,7 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/hero-image.png") no-repeat center center/cover;
+    background: url("../images/heroimg.webp") no-repeat center center/cover;
     position: relative;
 }
 
@@ -291,7 +291,7 @@ img {
 }
 /* Form */
 #signup {
-    background-image: url("../images/signup.png");
+    background-image: url("../images/sign-up-thankyou.webp");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -335,7 +335,7 @@ img {
 
 /*Thank You */
 #submit {
-    background-image: url("../images/signup.png");
+    background-image: url("../images/sign-up-thankyou.webp");
     background-size: cover;
     background-position: 75%;
     padding: 20px 10% 0 10%;
@@ -450,15 +450,18 @@ img {
    }
 
    img {
-       max-width: 400px;
-       max-height: 600px
+       width: 600px;
+       height:850px;
    }
 
+    #letter {
+        width: 600px;
+    }
    .blurb {
-    max-width: 800px;
+    width: 600px;
    }
    .lbl-toggle {
-    max-width: 800px;
+    width: 600px;
    }
 
     /* Form */
@@ -493,9 +496,9 @@ img {
         padding-top: 20px;
         padding-bottom: 20px: padding-left: 20px;
         padding-right: 20px;
-        color: #ffffff;
-        background-color: rgba(60, 60, 60, 0.8);
-        margin: auto;
+        color: white;
+        background-5hlor: rgba(60, 60, 60, 0.8);
+        marginb auto;
         height: 60vh;
         display: flex;
         align-items: center;
