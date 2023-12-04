@@ -443,12 +443,22 @@ img {
         width: 300px;
         right: 50px;
     }
-   /*Suggestions*/
-   .small-screen {
-       display: none;
-   }
+
+   .
    .current-watch {
     display: flex;
+   }
+
+   img {
+       max-width: 400px;
+       max-height: 600px
+   }
+
+   .blurb {
+    max-width: 800px;
+   }
+   .lbl-toggle {
+    max-width: 800px;
    }
 
     /* Form */
