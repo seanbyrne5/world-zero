@@ -151,13 +151,14 @@ main {
 }
 
 #letter {
-    text-align: center;
+    text-align:center;
     font-family: 'Oswald', sans-serif;
     color: black;
     letter-spacing: 2px;
     padding-left:20px;
     padding-right:20px;
     width: 300px;
+    margin: 0 auto;
 }
 
 .binging {
@@ -454,9 +455,11 @@ img {
 
     #letter {
         width: 600px;
+        text-align: center;
     }
    .blurb {
     width: 600px;
+    max-height:100%;
    }
    .lbl-toggle {
     width: 600px;
