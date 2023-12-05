@@ -181,7 +181,7 @@ main {
 
 
 .wrap-collabsible {
-    margin-bottom: 1.2rem 0;
+    margin-bottom: 0;
 }
 
 input[type='checkbox'] {
@@ -443,7 +443,6 @@ img {
         right: 50px;
     }
 
-   .
    .current-watch {
     display: flex;
    }
@@ -491,24 +490,6 @@ img {
         color: #454b1b;
     }
 
-    .container {
-        max-width: 1000px;
-        padding-top: 20px;
-        padding-bottom: 20px: padding-left: 20px;
-        padding-right: 20px;
-        color: white;
-        background-5hlor: rgba(60, 60, 60, 0.8);
-        marginb auto;
-        height: 60vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: absolute;
-        flex-direction: column;
-        justify-content: space-evenly;
-        border-radius: 12px;
-    }
-
     .video {
         width: 400px;
         height: 250px;
@@ -525,7 +506,6 @@ img {
     #about-me,
     .current, .blurb{
         font-size: 18px;
-        n
     }
 }
 
@@ -536,4 +516,3 @@ img {
         font-size: 28px;
     }
 }
-b
